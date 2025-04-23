@@ -1,0 +1,76 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+ *, *{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+ }
+
+ .main_container{
+    max-width:1216px;
+    width:100%;
+    margin:auto;
+    padding:0 20px;
+ }
+ .section{
+    padding:96px 0px;
+ }
+/* Navbar Section Design */
+.nav_section{
+    padding:16px 0px;
+}
+.navbar-wrapper{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.logo_img{
+    width:109px;
+    height:32px;
+
+}
+.logo_img img{
+    width:100%;
+    height:100%;
+}
+
+.menu_bar ul{
+    display:flex;
+    list-style:none;
+}
+.menu_bar li{
+    margin-right:32px;
+
+}
+.menu_bar li a{
+    text-decoration:none;
+    font-size:16px;
+    line-height:22px;
+    letter-spacing:-0.7%;
+    font-weight:700;
+    font-family:"Plus Jakarta Sans";
+    color:#475569;
+}
+.btn_area{
+    display:flex;
+    gap:8px;
+}
+.btn{
+      padding: 13px 20px;
+      background:white;  
+      color:#475569;
+      border: 1px solid #CBD5E1; /* 1px border */
+      border-radius: 1234px;
+      font-size: 16px;
+      font-weight:700;
+      line-height:22px;
+      letter-spacing:-0.7%;
+      cursor: pointer;
+      transition: all 0.3s ease;
+
+}
+.btn:hover {
+    color:white;
+    background:#4F46E5;
+}
